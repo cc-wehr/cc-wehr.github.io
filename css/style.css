@@ -1,3 +1,4 @@
+@import "defnblock.css";
 body {
     background-image: url('https://thumbs.gfycat.com/DecimalThisDiscus-max-1mb.gif');
     background-size: cover;
@@ -10,15 +11,15 @@ body {
   h1 {
     color: black;
     text-align: center;
-    font-size: 7.5em;
+    font-size: 10vh;
   }
 
   h2 {
     color: black;
     text-align: center;
-    font-size: 3em;
+    font-size: 5vh;
   }
-  
+
   p {
     font-family: verdana;
     font-size: 20px;
@@ -34,10 +35,10 @@ body {
     margin: auto;
   }
   .heading:hover {
-    transform: scale(1.15);
+    transform: scale(1.03);
     color: rgb(131, 3, 3);
   }
   .headingjp:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     color: rgb(131, 3, 3);
   }

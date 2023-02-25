@@ -1,0 +1,25 @@
+.defnwrap{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 20em;
+  height: 5em;
+  border: 1ch dashed pink;
+}
+.char{
+  color: green;
+  width: 5em;
+  height: 4em;
+  border: 1ch dashed pink;
+}
+.hira{
+  color: blue;
+  width: 5em;
+  height: auto;
+}
+.defn{
+  color: pink;
+  width: 5em;
+  height: auto;
+}
