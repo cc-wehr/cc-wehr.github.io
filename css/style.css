@@ -1,24 +1,54 @@
 @import "defnblock.css";
 body {
-    background-image: url('png/tactile_noise.png');
-    background-repeat: repeat;
+    background-color: beige;
+    display: grid;
+    place-items: center;
   }
-  
-  h1 {
+  a{
+    text-decoration: none;
     color: black;
-    text-align: center;
-    font-size: 5vh;
+  }
+  a:hover{
+    color:maroon
+  }
+  .top-bar{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+    border-bottom: 2px solid black;
+  }
+  .top-bar p.left{
+    font-family: Poppins;
+    width: 50%;
+    font-weight: 700;
+    font-size: small;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: .75em;
+  }
+  .top-bar p.right{
+    font-family: Poppins;
+    width: 50%;
+    font-weight: 700;
+    font-size: small;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: .75em;
+  }
+  .top-bar hr{
+    border: none;
+    border-top: 2px solid black;
+    margin-top: -.5em;
   }
 
   h2 {
     color: black;
-    text-align: center;
     font-size: 3vh;
   }
 
   h3 {
     color: black;
-    text-align: center;
     font-size: 2vh;
   }
 
@@ -35,22 +65,22 @@ body {
     border-radius: 5ch;
   }
   .post{
-    background-color: rebeccapurple;
-    border-radius: 5ch;
-    float: left;
-    height: 25%;
-    width: 50%;
-
+    font-family: 'Varela', Courier, monospace;
+    width: 10em;
+    transition: .5s;
+    margin: none;
+    padding: -1em;
+    line-height: 1;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
     position: relative;
-  }
-  .post:hover {
-    transform: scale(1.03);
-    color: rgb(131, 3, 3);
   }
 
   p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Varela', Courier, monospace;
     font-size: 20px;
     
     position: relative;
@@ -60,24 +90,46 @@ body {
     transform: translateY(-40%);
   }
   .blurb{
-    font-family: 'Courier New', Courier, monospace;
+
     font-size: 20px;
   }
   .heading {
-    font-family: 'Courier New', Courier, monospace;
+    width: 50em;
     transition: .5s;
-    margin: auto;
+    margin-top: 3em;
+    padding-top: 1em;
+    line-height: 1;
+    text-align: left;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
   }
+  .heading h1{
+    font-family: Poppins;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: black;
+    font-size: 5vh;
+  }
+  .heading h2{
+    font-family: Poppins;
+    font-weight: 800;
+    margin-left: 10px;
+  }
+
   .headingjp {
    /* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
     transition: .5s;
     margin: auto;
   }
-  .heading:hover {
-    transform: scale(1.03);
-    color: rgb(131, 3, 3);
+  
+  .top-main-block p{
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
-  .headingjp:hover {
-    transform: scale(1.05);
-    color: rgb(131, 3, 3);
+  .top-main-block hr{
+    border: none;
+    border-top: 2px solid black;
+    margin: 0;
   }
