@@ -65,18 +65,14 @@ body {
     border-radius: 5ch;
   }
   .post{
-    font-family: 'Varela', Courier, monospace;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 1.15;
     width: 10em;
-    transition: .5s;
-    margin: none;
-    padding: -1em;
-    line-height: 1;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
-
-
-    position: relative;
+    margin-bottom: 0;
   }
 
   p {
@@ -132,4 +128,22 @@ body {
     border: none;
     border-top: 2px solid black;
     margin: 0;
+  }
+  p.pronunciation{
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 5%;
+    line-height: 1.15;
+  }
+  p.contact{
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 5%;
+    line-height: 1.15;
+  }
+  p.edu{
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 5%;
+    line-height: 1.15;
   }
