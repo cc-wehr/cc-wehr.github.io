@@ -133,6 +133,7 @@ body {
     font-family: Poppins;
     font-weight: 400;
     margin-left: 5%;
+    margin-top: 5%;
     line-height: 1.15;
   }
   p.contact{
@@ -145,5 +146,51 @@ body {
     font-family: Poppins;
     font-weight: 400;
     margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.15;
+  }
+  p.work{
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:10%;
+    line-height: 1.15;
+  }
+  .left-span{
+    float: right;
+  }
+  h3.proj-head{
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.15;
+    margin-left: 5%;
+  }
+  h3.proj-subhead{
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-top: -3%;
+    margin-left: 7%;
+    margin-bottom: auto;
+  }
+  p.proj-text{
+    font-family: Poppins;
+    text-align: justify;
+    vertical-align: text-top;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top:75px;
+    line-height: 1.15;
+  }
+  p.pers-text{
+    font-family: Poppins;
+    text-align: justify;
+    vertical-align: text-top;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top:45px;
     line-height: 1.15;
   }
