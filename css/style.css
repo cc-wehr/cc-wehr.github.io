@@ -1,7 +1,6 @@
 @import "defnblock.css";
 body {
-    background-color: beige;
-    display: grid;
+    background-color: rgb(224, 224, 208);
     place-items: center;
   }
   a{
@@ -39,7 +38,6 @@ body {
   .top-bar hr{
     border: none;
     border-top: 2px solid black;
-    margin-top: -.5em;
   }
 
   h2 {
@@ -48,8 +46,8 @@ body {
   }
 
   h3 {
+    font-family: Poppins;
     color: black;
-    font-size: 2vh;
   }
 
   .buffer{
@@ -69,12 +67,19 @@ body {
     font-weight: 400;
     line-height: 1.15;
     width: 10em;
+    padding-left: .25em;
+    padding-right: .25em;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
     margin-bottom: 0;
   }
-
+  .resumes{
+    padding: 1em;
+    line-height: 2;
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
   p {
     font-family: 'Varela', Courier, monospace;
     font-size: 20px;
@@ -90,7 +95,7 @@ body {
     font-size: 20px;
   }
   .heading {
-    width: 50em;
+    width: 100%;
     transition: .5s;
     margin-top: 3em;
     padding-top: 1em;
@@ -112,13 +117,23 @@ body {
     font-weight: 800;
     margin-left: 10px;
   }
-
-  .headingjp {
-   /* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;*/
-    transition: .5s;
-    margin: auto;
+  .namep{
+    padding-top: 0;
   }
-  
+  #about{
+    margin: 1em;
+    padding: 1em;
+  }
+  .about-sub{
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 5%;
+    margin-top: -3%;
+    line-height: 1.15;
+  }
+  .left-span{
+    float: right;
+  }
   .top-main-block p{
     margin-left: 10px;
     margin-top: 0;
@@ -129,36 +144,11 @@ body {
     border-top: 2px solid black;
     margin: 0;
   }
-  p.pronunciation{
-    font-family: Poppins;
-    font-weight: 400;
-    margin-left: 5%;
-    margin-top: 5%;
-    line-height: 1.15;
-  }
   p.contact{
     font-family: Poppins;
     font-weight: 400;
     margin-left: 5%;
     line-height: 1.15;
-  }
-  p.edu{
-    font-family: Poppins;
-    font-weight: 400;
-    margin-left: 5%;
-    margin-right: 5%;
-    line-height: 1.15;
-  }
-  p.work{
-    font-family: Poppins;
-    font-weight: 400;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top:10%;
-    line-height: 1.15;
-  }
-  .left-span{
-    float: right;
   }
   h3.proj-head{
     font-family: Poppins;
