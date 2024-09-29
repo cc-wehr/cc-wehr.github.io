@@ -41,10 +41,15 @@ body {
   }
 
   h2 {
+    font-family: Poppins;
     color: black;
-    font-size: 3vh;
   }
-
+  #about h2{
+    text-align: center;
+  }
+  #skills h2{
+    text-align: center;
+  }
   h3 {
     font-family: Poppins;
     color: black;
@@ -121,8 +126,17 @@ body {
     padding-top: 0;
   }
   #about{
-    margin: 1em;
-    padding: 1em;
+    border-bottom: 2px solid black;
+  }
+  #skills{
+    border-bottom: 2px solid black;
+  }
+  .about{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
   }
   .about-sub{
     font-family: Poppins;
@@ -130,6 +144,10 @@ body {
     margin-left: 5%;
     margin-top: -1em;
     line-height: 1.15;
+  }
+  .about-sub table{
+    text-align: center;
+    width: 100%;
   }
   .left-span{
     float: right;
